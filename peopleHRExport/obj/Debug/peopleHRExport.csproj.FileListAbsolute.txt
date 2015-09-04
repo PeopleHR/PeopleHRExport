@@ -1,0 +1,22 @@
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\peopleHRExport.exe.config
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\peopleHRExport.exe
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\peopleHRExport.pdb
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\obj\Debug\peopleHRExport.exe
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\obj\Debug\peopleHRExport.pdb
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\Newtonsoft.Json.dll
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\Newtonsoft.Json.xml
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\peopleHRExport.exe.manifest
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\peopleHRExport.application
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\obj\Debug\peopleHRExport.exe.manifest
+D:\My Apps\VS Work\peopleHRExport\peopleHRExport\obj\Debug\peopleHRExport.application
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\peopleHRExport.exe.config
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\obj\Debug\peopleHRExport.exe
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\obj\Debug\peopleHRExport.pdb
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\peopleHRExport.exe.manifest
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\peopleHRExport.application
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\peopleHRExport.exe
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\peopleHRExport.pdb
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\Newtonsoft.Json.dll
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\bin\Debug\Newtonsoft.Json.xml
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\obj\Debug\peopleHRExport.exe.manifest
+D:\My Apps\VS Work\peopleHRExport - V1.1\peopleHRExport\obj\Debug\peopleHRExport.application

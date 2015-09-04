@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "peopleHRExport", "peopleHRExport\peopleHRExport.csproj", "{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "PeopleHRExportSetup", "PeopleHRExportSetup\PeopleHRExportSetup.isproj", "{BF51D683-545B-43CE-BC67-86D87C015927}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E} = {2702C586-DF35-4B5E-B58D-9EAED24A4F6E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{2702C586-DF35-4B5E-B58D-9EAED24A4F6E}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{BF51D683-545B-43CE-BC67-86D87C015927}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{BF51D683-545B-43CE-BC67-86D87C015927}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{BF51D683-545B-43CE-BC67-86D87C015927}.Debug|Any CPU.ActiveCfg = DVD-5
+		{BF51D683-545B-43CE-BC67-86D87C015927}.Debug|Any CPU.Build.0 = DVD-5
+		{BF51D683-545B-43CE-BC67-86D87C015927}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{BF51D683-545B-43CE-BC67-86D87C015927}.DVD-5|Any CPU.Build.0 = DVD-5
+		{BF51D683-545B-43CE-BC67-86D87C015927}.Release|Any CPU.ActiveCfg = SingleImage
+		{BF51D683-545B-43CE-BC67-86D87C015927}.Release|Any CPU.Build.0 = SingleImage
+		{BF51D683-545B-43CE-BC67-86D87C015927}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{BF51D683-545B-43CE-BC67-86D87C015927}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
