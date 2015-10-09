@@ -117,7 +117,7 @@ namespace peopleHRExport
 
                             try
                             {
-                                WebRequest req_peopleHR = WebRequest.Create("https://api.peoplehruat.com/Query");
+                                WebRequest req_peopleHR = WebRequest.Create("https://api.peoplehr.net/Query");
                                 HttpWebRequest httpreq_peopleHR = (HttpWebRequest)req_peopleHR;
                                 httpreq_peopleHR.Method = "POST";
 
