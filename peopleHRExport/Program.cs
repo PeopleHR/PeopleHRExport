@@ -33,7 +33,7 @@ namespace peopleHRExport
                     string APIKey = "";
                     string Queries = "";
 
-                    Console.WriteLine("Program started");
+                    Console.WriteLine("Program started V2.0");
                     //try
                     //{
                     // // Or specify a specific name in the current dir
@@ -120,6 +120,7 @@ namespace peopleHRExport
                                 WebRequest req_peopleHR = WebRequest.Create("https://api.peoplehr.net/Query");
                                 HttpWebRequest httpreq_peopleHR = (HttpWebRequest)req_peopleHR;
                                 httpreq_peopleHR.Method = "POST";
+                                httpreq_peopleHR.Timeout = 100000;
 
                                 httpreq_peopleHR.ContentType = "application/json";
                                 // httpreq_mandrill.Headers.Add("Authorization", "Basic " + asana_APIKey.Text);
