@@ -31,3 +31,16 @@ D:\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\Newtonsoft.Jso
 D:\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\Newtonsoft.Json.xml
 D:\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.exe.manifest
 D:\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.application
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\peopleHRExport.exe.config
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\peopleHRExport.exe.manifest
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\peopleHRExport.application
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\peopleHRExport.exe
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\peopleHRExport.pdb
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\Newtonsoft.Json.dll
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\Newtonsoft.Json.xml
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.exe.manifest
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.application
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.exe
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.pdb
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\bin\Debug\settings.txt
+D:\My Works\My Apps\VS Work\peopleHRExport - V2.0\peopleHRExport\obj\Debug\peopleHRExport.csprojResolveAssemblyReference.cache

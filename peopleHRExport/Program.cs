@@ -33,7 +33,7 @@ namespace peopleHRExport
                     string APIKey = "";
                     string Queries = "";
 
-                    Console.WriteLine("Program started V2.0");
+                    Console.WriteLine("Program started V3.0");
                     //try
                     //{
                     // // Or specify a specific name in the current dir
@@ -117,6 +117,9 @@ namespace peopleHRExport
 
                             try
                             {
+                                // Limit  API Call 
+                                System.Threading.Thread.Sleep(1000);
+
                                 WebRequest req_peopleHR = WebRequest.Create("https://api.peoplehr.net/Query");
                                 HttpWebRequest httpreq_peopleHR = (HttpWebRequest)req_peopleHR;
                                 httpreq_peopleHR.Method = "POST";
@@ -145,6 +148,7 @@ namespace peopleHRExport
                                     JToken token = JObject.Parse(result_QueryPeopleHR);
 
                                     bool isError = (bool)token.SelectToken("isError");
+                                    string API_message = (string)token.SelectToken("Message");
 
                                     if (!isError)
                                     {
@@ -189,7 +193,7 @@ namespace peopleHRExport
 
                                     else
                                     {
-                                        Console.WriteLine(query_single + " - Invalid Query Name ");
+                                        Console.WriteLine(query_single + " - Error - " + API_message);
 
                                     }
                                 }

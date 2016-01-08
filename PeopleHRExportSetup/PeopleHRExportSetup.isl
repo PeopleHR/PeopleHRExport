@@ -341,7 +341,8 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{68508643-DA31-42A1-91A3-77EB6162D139}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td>{8CE55EA4-24BB-4695-85CB-B52BACE5EAF9}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>peopleHRExport.Primary_output</td><td>{9C480865-BF62-4236-BD1D-72B96A20A94B}</td><td>INSTALLDIR</td><td>2</td><td/><td>peoplehrexport.primary_outpu</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>peopleHRExport.Content_Files</td><td>{AC574293-439B-4288-A6E9-790B0A412BB6}</td><td>INSTALLDIR</td><td>2</td><td/><td>peoplehrexport.content_files</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>peopleHRExport.Primary_output</td><td>{4409EDFE-E3DE-420F-82F1-2C9B6ABA2A32}</td><td>INSTALLDIR</td><td>2</td><td/><td>peoplehrexport.primary_outpu</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1052,6 +1053,7 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>INSTALLDIR</td><td>IS_ININSTALL_SHORTCUT</td></row>
+		<row><td>INSTALLDIR</td><td>peopleHRExport.Content_Files</td></row>
 		<row><td>INSTALLDIR</td><td>peopleHRExport.Primary_output</td></row>
 	</table>
 
@@ -1869,6 +1871,7 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>IS_ININSTALL_SHORTCUT</td></row>
+		<row><td>AlwaysInstall</td><td>peopleHRExport.Content_Files</td></row>
 		<row><td>AlwaysInstall</td><td>peopleHRExport.Primary_output</td></row>
 	</table>
 
@@ -1884,8 +1887,8 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
+		<row><td>peoplehrexport.content_files</td><td>peopleHRExport.Content_Files</td><td>peopleHRExport.Content Files</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;peopleHRExport&gt;|ContentFiles</td><td>3</td><td/></row>
 		<row><td>peoplehrexport.primary_outpu</td><td>peopleHRExport.Primary_output</td><td>peopleHRExport.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;peopleHRExport&gt;|Built</td><td>3</td><td/></row>
-		<row><td>settings.txt</td><td>ISX_DEFAULTCOMPONENT</td><td>settings.txt</td><td>0</td><td/><td/><td/><td>1</td><td>D:\My Apps\VS Work\peopleHRExport\peopleHRExport\bin\Debug\settings.txt</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2030,7 +2033,8 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_57129299_690B_4421_AB39_EB0619BFD712_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td/><td/><td>_E35E29AE_C450_4BDF_B5D0_973A20471C2F_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>peopleHRExport.Primary_output</td><td/><td/><td>_A44F2792_51DB_4AC9_91E6_A4ABBA094109_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>peopleHRExport.Content_Files</td><td/><td/><td>_B6663B59_2CCB_48CD_B0D0_7174771E9CD9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>peopleHRExport.Primary_output</td><td/><td/><td>_57EC375A_EDC9_4C4A_B071_BB90D676FCF5_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2619,7 +2623,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Fuzonmedia</td><td>0</td><td/><td>212059636</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Fuzonmedia</td><td>0</td><td/><td>1084500108</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>212016628</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>212016628</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1033</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>212055572</td></row>
@@ -3721,8 +3725,8 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>212016628</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>212016628</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>212016628</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.fuzonmedia.com</td><td>0</td><td/><td>212061077</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>Fuzonmedia</td><td>0</td><td/><td>212059636</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.Fuzonmedia.com</td><td>0</td><td/><td>1084500108</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>Fuzonmedia</td><td>0</td><td/><td>1084500108</td></row>
 		<row><td>ID_STRING3</td><td>1033</td><td>Launch |Built</td><td>0</td><td/><td>212070260</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>212016628</td></row>
 	</table>
@@ -3970,7 +3974,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{C22124A4-1946-4257-B285-149724276076}</td></row>
 		<row><td>ISUSSignature</td><td>{F199093A-165E-4334-B798-8716EE0B6126}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewUI,viewShortcuts,viewProject,viewISToday</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewUI,viewShortcuts,viewProject,viewISToday,viewAppFiles</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4343,8 +4347,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
 		<row><td>ProductCode</td><td>{AB4F27E6-850E-49E4-9F0E-4450489749C9}</td><td/></row>
-		<row><td>ProductName</td><td>PeopleHRExport V2.0</td><td/></row>
-		<row><td>ProductVersion</td><td>2.0</td><td/></row>
+		<row><td>ProductName</td><td>PeopleHRExport V3.0</td><td/></row>
+		<row><td>ProductVersion</td><td>3.0</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>

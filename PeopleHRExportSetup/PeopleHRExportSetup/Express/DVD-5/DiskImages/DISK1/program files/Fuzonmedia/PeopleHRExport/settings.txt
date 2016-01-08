@@ -1,2 +1,2 @@
-API_KEY=5fbff05b-07c2-40a6-8d5e-483921701919
-Query=nilSalTest,NilTestHolidays
+﻿API_KEY=5fbff05b-07c2-40a6-8d5e-483921701919
+Query=nilSalTest,NilTestHolidays,Salary,DataTest
